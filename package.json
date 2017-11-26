@@ -1,0 +1,19 @@
+{
+  "name": "cc-urlparse",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Chan-Chun/cc-urlparse.git"
+  },
+  "author": "chun_chan",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Chan-Chun/cc-urlparse/issues"
+  },
+  "homepage": "https://github.com/Chan-Chun/cc-urlparse#readme"
+}
