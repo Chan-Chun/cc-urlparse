@@ -1,19 +1,28 @@
 {
   "name": "cc-urlparse",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "mocha ./test",
+    "lint": "eslint ./lib ./test"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/Chan-Chun/cc-urlparse.git"
+  },
+  "devDependencies": {
+    "eslint": "^5.2.0",
+    "mocha": "^5.2.0",
+    "pre-commit": "^1.2.2"
   },
   "author": "chun_chan",
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/Chan-Chun/cc-urlparse/issues"
   },
-  "homepage": "https://github.com/Chan-Chun/cc-urlparse#readme"
+  "homepage": "https://github.com/Chan-Chun/cc-urlparse#readme",
+  "pre-commit": [
+    "lint"
+  ]
 }
