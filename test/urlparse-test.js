@@ -27,6 +27,6 @@ describe('urlparse', () => {
       test: 'test1',
       test1: 'test2',
     })
-    assert.equal(str, 'test=test1&test1=test2')
+    assert.strictEqual(str, 'test=test1&test1=test2')
   })
 })
